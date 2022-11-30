@@ -1,0 +1,5 @@
+1 các thanh nhập thông tin trên front-end
+2 thêm các giá trị tại back-end
+- sửa thương thức GET -> ...
+- thêm thông tin biến số &test=test
+3 gõ tìm các file có thể xảy ra trên đường dẫn
